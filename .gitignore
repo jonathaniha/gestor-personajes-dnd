@@ -1,0 +1,26 @@
+# Caché y archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Variables de entorno y credenciales sensibles
+.env
+.env.*
+*.pem
+*.key
+
+# Archivos de configuración de editores e IDEs
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
